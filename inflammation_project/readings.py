@@ -11,6 +11,7 @@ filename=sys.argv[1]
 	
 data = loaddata.load(filename)
 	
+print("I am learning github")
 print(filename)
 	
 print(data.mean(axis=1))
